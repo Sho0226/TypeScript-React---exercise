@@ -1,0 +1,28 @@
+プリミティブ型
+    値を直接変更できない=>イミュータブル
+    プロパティをもたない
+
+    null.toString(); //error
+    "name".length; //4
+
+    種類(7つ)
+    boolean => true or false
+    number => 0, 0.1...
+    string => hello world
+    undefined => 値が未定義
+    null => 値がない
+    symbol => 一意で不変の値
+    bigint => number型では扱えない大きな整数型
+
+配列型
+    ~[]
+
+オブジェクト型
+    プリミティブ型以外のすべてのデータ型
+
+型エイリアス
+    type 型名　＝　型
+    型名は大文字始まり
+インターフェイス
+    より拡張性の高いオープンな機能
+    ＝がいらない{ではじまる
