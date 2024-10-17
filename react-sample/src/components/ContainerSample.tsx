@@ -2,9 +2,10 @@ import React from "react"
 
 type ContainerProps = {
     title : string
+    children : React.ReactNode
 }
 
-const Container = React.FC<ContainerProps> =(props)  =>{
+const Container = (props: ContainerProps): JSX.Element =>{
     const {title, children} = props
 
     return(
@@ -15,7 +16,7 @@ const Container = React.FC<ContainerProps> =(props)  =>{
     )
 }
 
-const Parent = React.VFC=()=> {
+const Parent = (): JSX.Element => {
     return(
         <Container title="Hello">
             <p>個々の色が背景色でで囲まれます</p>
