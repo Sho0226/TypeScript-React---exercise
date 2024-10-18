@@ -41,3 +41,5 @@ export const Parent = () => {
         </div>
     )
 }
+
+export default Parent
